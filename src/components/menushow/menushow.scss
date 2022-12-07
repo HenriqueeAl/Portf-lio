@@ -40,12 +40,18 @@ header{
                 a{
                     background-color: transparent;
                     text-decoration: none;
+                    .select{
+                        background-color: transparent;
+                        .icons-nav-header{
+                            color: #1B1F24;
+                        }
+                    }
                     li{
                         display: flex;
                         align-items: center;
                         justify-content: center;
                         font-family: fredoka;
-                        color: white;
+                        color: white !important;
                         width: 80%;
                         height: 80px;
                         margin: 0 auto;

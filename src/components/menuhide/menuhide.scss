@@ -26,16 +26,21 @@
         background-color: transparent;
         display: flex;
         justify-content: center;
+        a{
+            color: #2D3039;
+        }
         ul{
             background-color: transparent;
             list-style: none;
+            .select{
+                background-color: transparent;
+                color: #1B1F24;
+            }
             li{ 
                 margin: 10px;
                 padding: 5px;
                 border-radius: 6px;
-                background-color: transparent;
                 .icons-header-hide{
-                    color: #1B1F24;
                     font-size: 35px;
                     background-color: transparent;
                     cursor: pointer;
