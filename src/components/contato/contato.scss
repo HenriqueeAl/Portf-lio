@@ -1,0 +1,52 @@
+.contato{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    form{
+        width: 500px;
+        height: 500px;
+        background-color: #2D3039;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        input{
+            width: 80%;
+            height: 50px;
+            border: none;
+            outline: none;
+            font-size: 1.25em;
+            margin: 0 auto;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 4px;
+            font-family: 'fredoka';
+        }
+        .message{
+            width: 80%;
+            height: 200px;
+            border: none;
+            outline: none;
+            font-size: 1.05em;
+            margin: 0 auto;
+            color: white;
+            border-radius: 4px;
+            padding: 10px;
+            resize: none;
+            font-family: 'fredoka';
+        }
+
+        button{
+            width: 50%;
+            height: 50px;
+            margin: 0 auto;
+            border: none;
+            color: white;
+            font-family: 'fredoka';
+            font-size: 1.2em;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    }
+}

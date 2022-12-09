@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.scss'
+import { Contato } from './components/contato/Contao';
 import { Inicio } from './components/inicio/Inicio';
 import { Menuhide } from './components/menuhide/Menuhide'
 import { Menushow } from './components/menushow/Menushow'
@@ -20,7 +21,7 @@ function App(props: any) {
       {area == 'sobre' ? <></> : <></>}
       {area == 'projetos' ? <></> : <></>}
       {area == 'habilidades' ? <></> : <></>}
-      {area == 'contato' ? <></> : <></>}
+      {area == 'contato' ? <Contato></Contato> : <></>}
     </div>
   )
 }
