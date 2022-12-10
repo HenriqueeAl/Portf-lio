@@ -1,0 +1,64 @@
+.projeto{
+    width: 70%;
+    height: 220px;
+    background: #2D3039;
+    border-radius: 8px;
+    margin: 30px auto;
+    font-family: 'fredoka';
+    padding: 1% 1.5%;
+    display: flex;
+    
+    .w80{
+        background-color: transparent;
+        width: 70%;
+        h3{
+            color: white;
+            width: fit-content;
+            background-color: transparent;
+            font-size: 30px;
+        }
+    
+        .texts{
+            display: flex;
+            background-color: transparent;
+            padding: 0 1%;
+            h5{
+                background-color: transparent;
+                color: gray;
+                padding-top: 2%;
+            }
+            .descricao{
+                background-color: transparent;
+                width: 50%;
+                p{
+                    background-color: transparent;
+                    color: gray;
+                    padding-left: 3%;
+                }
+            }
+            .tecnologias{
+                width: 50%;
+                padding-left: 5%;
+                background-color: transparent;
+                ul{
+                    background-color: transparent;
+                    list-style: none;
+                    padding: 0 2%;
+                    display: flex;
+                    li{
+                        background-color: transparent;
+                        color: gray;
+                        padding-left: 1%;
+                        margin-top: 1%;
+                        width: 50%;
+                    }
+                }
+            }
+        }
+    }
+
+    .bg-projeto{
+        width: 30%;
+        height: 100%;
+    }
+}

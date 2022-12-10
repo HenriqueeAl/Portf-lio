@@ -4,6 +4,7 @@ import { Contato } from './components/contato/Contao';
 import { Inicio } from './components/inicio/Inicio';
 import { Menuhide } from './components/menuhide/Menuhide'
 import { Menushow } from './components/menushow/Menushow'
+import { Projetos } from './components/projetos/projetos';
 
 function App(props: any) {
   const [menu, setMenu] = useState(true);
@@ -19,7 +20,7 @@ function App(props: any) {
 
       {area == 'inicio' ? <Inicio></Inicio> : <></>}
       {area == 'sobre' ? <></> : <></>}
-      {area == 'projetos' ? <></> : <></>}
+      {area == 'projetos' ? <Projetos /> : <></>}
       {area == 'habilidades' ? <></> : <></>}
       {area == 'contato' ? <Contato></Contato> : <></>}
     </div>
