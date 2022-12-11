@@ -1,0 +1,45 @@
+.content-sobre{
+    padding: 3% 5%;
+    display: flex;
+    flex-wrap: wrap;
+
+    .sobre{
+        width: 100%;
+        text-align: center;
+        h4{
+            width: 50%;
+            color: white;
+            font-family: 'fredoka';
+            font-size: 30px;
+        }
+        
+        p{
+            margin-top: 3%;
+            width: 50%;
+            color: white;
+            font-family: 'fredoka';
+            font-size: 20px;
+        }
+    }
+    .certificados{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        h4{
+            width: 45%;
+            color: white;
+            font-family: 'fredoka';
+            font-size: 30px;
+        }
+        
+        p{
+            width: 45%;
+            margin-top: 3%;
+            color: white;
+            font-family: 'fredoka';
+            font-size: 16px;
+        }
+    }
+}

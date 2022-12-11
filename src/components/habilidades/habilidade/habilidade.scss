@@ -1,0 +1,24 @@
+.box{
+    width: 8%;
+    height: 20%;
+    background-color: #2D3039;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content:  space-around;
+    color: #1B1F24;
+    cursor: pointer;
+    .icon{
+        background-color: transparent;
+        font-size: 3em;
+    }
+    p{
+        font-family: 'fredoka';
+        font-weight: bolder;
+        background-color: transparent;
+    }
+}

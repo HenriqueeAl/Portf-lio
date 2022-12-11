@@ -1,10 +1,12 @@
 import { useState } from 'react'
 import './App.scss'
 import { Contato } from './components/contato/Contao';
+import { Habilidades } from './components/habilidades/habilidades';
 import { Inicio } from './components/inicio/Inicio';
 import { Menuhide } from './components/menuhide/Menuhide'
 import { Menushow } from './components/menushow/Menushow'
 import { Projetos } from './components/projetos/projetos';
+import { Sobre } from './components/sobre/sobre';
 
 function App(props: any) {
   const [menu, setMenu] = useState(true);
@@ -19,9 +21,9 @@ function App(props: any) {
       }
 
       {area == 'inicio' ? <Inicio></Inicio> : <></>}
-      {area == 'sobre' ? <></> : <></>}
+      {area == 'sobre' ? <Sobre></Sobre> : <></>}
       {area == 'projetos' ? <Projetos /> : <></>}
-      {area == 'habilidades' ? <></> : <></>}
+      {area == 'habilidades' ? <Habilidades /> : <></>}
       {area == 'contato' ? <Contato></Contato> : <></>}
     </div>
   )
